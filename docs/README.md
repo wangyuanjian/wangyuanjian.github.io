@@ -4,7 +4,7 @@ heroImage: ./w644.jpeg
 heroText: I'm Levi
 tagline: null
 actionText: visit now →
-actionLink: ./diary/README.md
+actionLink: /dairy/
 features:
 - title: Front-end Developer
   details: It's interesting.

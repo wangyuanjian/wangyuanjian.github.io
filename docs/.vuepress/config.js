@@ -10,5 +10,13 @@ module.exports = {
         '@': path.resolve(__dirname, './public/img')
       }
     }
+  },
+  themeConfig: {
+    logo: 'favicon.png',
+    nav: [
+      { text: 'Home', link: '/', target: '_blank', rel: 'noopener noreferrer' },
+      { text: 'Guide', link: '/dairy/' },
+      { text: 'Github', link: 'https://github.com/wangyuanjian' },
+    ]
   }
 }
