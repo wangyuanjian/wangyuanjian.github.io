@@ -13,10 +13,19 @@ module.exports = {
   },
   themeConfig: {
     logo: 'favicon.png',
+    // navbar: false
     nav: [
       { text: 'Home', link: '/', target: '_blank', rel: 'noopener noreferrer' },
       { text: 'Guide', link: '/dairy/' },
-      { text: 'Github', link: 'https://github.com/wangyuanjian' },
+      { 
+        text: '❤️',
+        ariaLabel: 'My',
+        items: [
+          { text: 'Github', link: 'https://github.com/wangyuanjian' },
+          { text: 'CSDN', link: 'https://blog.csdn.net/broken_promise' },
+          { text: '掘金', link: 'https://juejin.cn/user/3227821868068184' },
+        ]
+      },
     ]
   }
 }
