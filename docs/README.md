@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./w644.jpeg
+heroImage: ./favicon.png
 heroText: I'm Levi
 tagline: null
 actionText: visit now →
